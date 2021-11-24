@@ -1,0 +1,41 @@
+
+/* -- hook section stylings --*/
+
+.section-one {
+    display: flex;
+    position: relative;
+    background: linear-gradient(270deg, #F7DACA 0%, rgba(247, 218, 202, 0) 100%);
+}
+.hook-flower-img {
+    width: 360px;
+    height: 240px;
+}
+.hook-text__container {
+    position: absolute;
+    right: 0;
+    margin-top: 2rem;
+}
+.hook-title {
+    font-size: 1.5rem;
+    line-height: 1.9rem;
+}
+.hook-text {
+    max-width: 28rem;
+    font-size: 1.05rem;
+    line-height: 1.7rem;
+    margin-top: .5rem;
+}
+@media screen and (max-width: 612px) {
+    .section-one {
+        background: transparent;
+    }
+    .section-one::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        opacity: .9;
+        background-color: var(--second-clr-alt);
+        width: 100%;
+        height: auto;
+    }
+}
