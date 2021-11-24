@@ -166,3 +166,54 @@
         height: 461px;
     }
 }
+
+/* -- section four -- */
+.section-four {
+    display: none;
+    margin: 2rem 0;
+    padding: 1rem;
+}
+@media screen and (min-width: 1200px) {
+    .section-four {
+        display: block;
+    }
+}
+.product-ad-container {
+    display: flex;
+}
+.product-ad-info-container {
+    margin-left: 1rem;
+}
+.product-ad-title {
+    margin-bottom: .5rem;
+    font-size: 1.5rem;
+    position: relative;
+    padding-bottom: .5rem;
+}
+.product-ad-title::before {
+    content: "";
+    background-color: var(--second-clr);
+    height: .2rem;
+    width: 14.8rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.product-ad-description {
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: .002rem;
+    line-height: 1.5rem;
+    max-width: 30rem;
+    margin-top: 1.2rem;
+}
+.product-ad-description-1,
+.product-ad-description-2 {
+    margin-bottom: 1.2rem;
+}
+@media screen and (min-width: 580px) {
+    .product-ad-img {
+        width: 589px;
+        height: 407.06px;
+    }
+}
