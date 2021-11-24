@@ -5,7 +5,7 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: var(--primary-clr);
-    padding: .5rem;
+    padding: .8rem .5rem;
 }
 @media screen and (min-width: 612px) {
     header {
@@ -40,13 +40,14 @@ header {
         padding: 2rem 4rem 1rem 1rem;
         border-bottom-left-radius: .2rem;
         position: absolute;
-        top: 0;
+        top: 4.2rem;
         right: 0;
         transform: scaleY(0);
         transform-origin: top;
         flex-direction: column;
         align-items: flex-start;
         background-color: var(--primary-clr);
+        transition: transform 300ms;
     }
     .show-nav-bar {
         transform: scaleY(1);
@@ -75,13 +76,17 @@ header {
 .bx {
     cursor: pointer;
     color: var(--second-clr);
-    font-size: 2.5rem;
+    font-size: 2.7rem;
 }
 .menu-icons
 .bx-x {
     display: none;
     transition: transform 300ms;
 }
+.hide-open-menu__icon {
+    display: none;
+}
+.menu-icons
 .show-close-menu__icon {
     display: block;
 }
@@ -91,6 +96,8 @@ header {
 }
 @media screen and (max-width: 612px) {
     .menu-icons {
-        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
