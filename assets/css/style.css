@@ -36,6 +36,7 @@ a {
 /* -- -- -- */
 body {
     color: var(--primary-clr);
+    background-color: var(--white-clr);
     font-family: 'Poppins', sans-serif;
     font-size: 1rem;
 }
