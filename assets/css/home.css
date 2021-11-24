@@ -70,6 +70,7 @@
 /* -- home product  section stylings --*/
 /* -- section two -- */
 .section-two {
+    margin: 2.5rem 0;
     padding: 0 .5rem;
 }
 @media screen and (min-width: 612px) {
@@ -88,6 +89,7 @@
 
 /* -- section three -- */
 .section-three {
+    margin: 2.5rem 0;
     background: linear-gradient(278.35deg, #DFDFE1 45.55%, rgba(223, 223, 225, 0) 100%);
     position: relative;
 }
@@ -170,7 +172,7 @@
 /* -- section four -- */
 .section-four {
     display: none;
-    margin: 2rem 0;
+    margin: 2.5rem 0;
     padding: 1rem;
 }
 @media screen and (min-width: 1200px) {
@@ -215,5 +217,19 @@
     .product-ad-img {
         width: 589px;
         height: 407.06px;
+    }
+}
+
+/* -- section five -- */
+.section-five {
+    padding: 0 .5rem;
+    margin: 2.5rem 0;
+}
+.section-five .section-title::before {
+    width: 12rem;
+}
+@media screen and (min-width: 612px) {
+    .section-five {
+        padding: 0 1rem;
     }
 }
