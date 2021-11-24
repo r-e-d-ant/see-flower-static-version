@@ -1,0 +1,96 @@
+
+/* -- header section -- */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary-clr);
+    padding: .5rem;
+}
+@media screen and (min-width: 612px) {
+    header {
+        padding: 1rem;
+    }
+}
+.logo {
+    font-family: 'Fruktur', cursive;
+    font-size: 1.8rem;
+    color: var(--second-clr);
+}
+.nav-bar {
+    display: flex;
+    align-items: center;
+}
+.nav-lists {
+    display: flex;
+    align-items: center;
+}
+.nav-item {
+    margin-right: 2rem;
+}
+.nav-item
+.nav-link {
+    color: var(--second-clr);
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+@media screen and (max-width: 612px) {
+    .nav-bar {
+        z-index: 1;
+        padding: 2rem 4rem 1rem 1rem;
+        border-bottom-left-radius: .2rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: scaleY(0);
+        transform-origin: top;
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: var(--primary-clr);
+    }
+    .show-nav-bar {
+        transform: scaleY(1);
+    }
+    .nav-lists {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .nav-item {
+        margin-right: 0;
+        margin-bottom: 1.5rem;
+    }
+}
+.bxs-user-circle {
+    cursor: pointer;
+    font-size: 2.8rem;
+    color: var(--second-clr-alt);
+}
+.bxs-user-circle:hover {
+    color: var(--second-clr);
+}
+.menu-icons {
+    display: none;
+}
+.menu-icons
+.bx {
+    cursor: pointer;
+    color: var(--second-clr);
+    font-size: 2.5rem;
+}
+.menu-icons
+.bx-x {
+    display: none;
+    transition: transform 300ms;
+}
+.show-close-menu__icon {
+    display: block;
+}
+.menu-icons
+.bx-x:hover {
+    transform: rotate(180deg);
+}
+@media screen and (max-width: 612px) {
+    .menu-icons {
+        display: block;
+    }
+}
