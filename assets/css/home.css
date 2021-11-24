@@ -14,16 +14,33 @@
     position: absolute;
     right: 0;
     margin-top: 2rem;
+    padding: 0 .5rem;
+}
+@media screen and (min-width: 612px) {
+    .hook-text__container {
+        padding: 0 1rem;
+    }
 }
 .hook-title {
     font-size: 1.5rem;
     line-height: 1.9rem;
+    position: relative;
+    padding-bottom: .5rem;
+}
+.hook-title::before {
+    content: "";
+    background-color: var(--second-clr);
+    height: .2rem;
+    width: 14.8rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 .hook-text {
     max-width: 28rem;
     font-size: 1.05rem;
     line-height: 1.7rem;
-    margin-top: .5rem;
+    margin-top: .8rem;
 }
 @media screen and (max-width: 612px) {
     .section-one {
