@@ -1,0 +1,41 @@
+
+/* -- Font Family -- */
+/* -- Poppins -- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* -- default style reset -- */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* -- Variables -- */
+:root {
+    --primary-clr: #1f0e05;
+    --second-clr: #dd6822;
+    --second-clr-alt: #f7daca;
+    --white-clr: #fefcfb;
+    --gray-clr: #f1f1f1;
+}
+
+/* -- Base -- */
+li,
+ul {
+    list-style: none;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+a {
+    text-decoration: none;
+}
+/* -- -- -- */
+body {
+    color: var(--primary-clr);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
