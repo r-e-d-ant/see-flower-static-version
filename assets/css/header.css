@@ -33,6 +33,26 @@ header {
     color: var(--second-clr);
     font-size: 1.3rem;
     font-weight: 400;
+    position: relative;
+    padding-bottom: .2rem;
+    letter-spacing: .01rem;
+}
+.nav-item
+.nav-link::before {
+    content: "";
+    background-color: var(--second-clr);
+    height: .1rem;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 300ms;
+}
+.nav-item
+.nav-link:hover::before {
+    transform: scaleX(1);
 }
 @media screen and (max-width: 612px) {
     .nav-bar {
@@ -65,6 +85,7 @@ header {
     cursor: pointer;
     font-size: 2.8rem;
     color: var(--second-clr-alt);
+    transition: color 150ms;
 }
 .bxs-user-circle:hover {
     color: var(--second-clr);
