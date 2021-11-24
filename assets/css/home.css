@@ -1,14 +1,21 @@
 
 /* -- hook section stylings --*/
 
+/* -- section one -- */
 .section-one {
     display: flex;
     position: relative;
     background: linear-gradient(270deg, #F7DACA 0%, rgba(247, 218, 202, 0) 100%);
 }
 .hook-flower-img {
-    width: 360px;
+    width: 100%;
     height: 240px;
+}
+@media screen and (min-width: 364px) {
+    .hook-flower-img {
+        width: 360px;
+        height: 240px;
+    }
 }
 .hook-text__container {
     position: absolute;
@@ -22,7 +29,7 @@
     }
 }
 .hook-title {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     line-height: 1.9rem;
     position: relative;
     padding-bottom: .5rem;
@@ -31,14 +38,14 @@
     content: "";
     background-color: var(--second-clr);
     height: .2rem;
-    width: 14.8rem;
+    width: 13.5rem;
     position: absolute;
     bottom: 0;
     left: 0;
 }
 .hook-text {
     max-width: 28rem;
-    font-size: 1.05rem;
+    font-size: 1rem;
     line-height: 1.8rem;
     margin-top: 1.1rem;
 }
@@ -50,13 +57,31 @@
         content: '';
         position: absolute;
         inset: 0;
+        width: 100%;
         opacity: .9;
         background-color: var(--second-clr-alt);
-        width: 100%;
-        height: auto;
     }
     .hook-text {
         line-height: 1.7rem;
         margin-top: .8rem;
     }
+}
+
+/* -- home product  section stylings --*/
+/* -- section two -- */
+.section-two {
+    padding: 0 .5rem;
+}
+@media screen and (min-width: 612px) {
+    .section-two {
+        padding: 0 1rem;
+    }
+}
+.section-two .section-title::before {
+    width: 6.7rem;
+}
+.products-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
