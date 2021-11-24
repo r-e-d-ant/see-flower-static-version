@@ -75,7 +75,6 @@ footer {
 }
 @media screen and (min-width: 1200px) {
     .footer-link a {
-        font-weight: 400;
         font-size: .8rem;
     }
 }
