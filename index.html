@@ -18,59 +18,71 @@
         <div class="upper-header-container">
             <div class="upper-header">
                 <div class="left-side-links">
+                    <!-- menu icons -->
                     <div class="menu-icons">
                         <i class="bx bx-menu open-menu-icon"></i>
                         <i class="bx bx-x close-menu-icon"></i>
                     </div>
-    
+
+                    <!-- * View Phone | Desktop * -->
                     <!-- logo -->
                     <div class="logo">SeeFlower</div>
     
                     <!-- ship info, link -->
+                    <!-- * View Desktop * -->
                     <p class="ship-address view-desktop">
                         <i class="bx bx-map"></i>
                         <span class="grouped-link">
-                            <a href="#" class="upper-text-link"></a>
-                            <a href="#" class="lower-text-link"></a>
+                            <a href="#" class="upper-text-link">Deliver to</a>
+                            <a href="#" class="lower-text-link">Earth</a>
                         </span>
                     </p>
                 </div>
-    
+
                 <!-- search products -->
+                <!-- * View Desktop * -->
                 <form class="search-bar view-desktop">
                     <div class="form-container">
                         <input type="text" class="search-input">
-                        <div class="search-icon-container">
+                        <button type="submit" class="search-icon-container">
                             <i class="bx bx-search"></i>
-                        </div>
+                        </button>
                     </div>
                 </form>
     
                 <div class="right-side-links">
-                    <span class="grouped-link view-phone">
+                    <!-- * View Phone * -->
+                    <span class="user-link view-phone">
                         <a href="#" class="upper-text-link">Sign in ></a>
                         <a href="#" class="lower-text-link">
                             <i class='bx bx-user'></i>
                         </a>
                     </span>
-    
+
+                    <!-- * View Desktop * -->
                     <span class="grouped-link view-desktop">
                         <a href="#" class="upper-text-link">Hello, Sign in</a>
                         <a href="#" class="lower-text-link">Accounts</a>
                     </span>
-    
+
+                    <!-- * View Desktop * -->
                     <span class="grouped-link view-desktop">
                         <a href="#" class="upper-text-link">Returns</a>
                         <a href="#" class="lower-text-link">& Orders</a>
                     </span>
-    
-                    <span class="cart-icon-container">
+
+                    <!-- * View Phone | Desktop * -->
+                    <div class="cart-icon-container">
                         <i class='bx bx-cart cart-icon'></i>
-                        <i class="cart-count">0</i>
-                    </span>
+                        <span class="grouped-link">
+                            <a href="#" class="upper-text-link">2 In</a>
+                            <a href="#" class="lower-text-link">Cart</a>
+                        </span>
+                    </div>
                 </div>
             </div>
-    
+
+            <!-- * View Phone * -->
             <!-- search products -->
             <form class="search-bar view-phone">
                 <div class="form-container">
@@ -91,9 +103,15 @@
                     <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
                 </ul>
             </nav>
+            <p class="view-phone ship-address-phone">
+                <i class="bx bx-map"></i>
+                <a href="#" class="upper-text-link">Deliver to Earth</a>
+            </p>
         </div>
     </header>
-    <main>
+
+    <!-- main -->
+    <main id="main">
         <!-- section one -->
         <section class="section section-one">
             <img src="./assets/images/hook_flower.png" alt="beautiful flower" class="hook-flower-img">
