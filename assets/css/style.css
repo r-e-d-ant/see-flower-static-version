@@ -15,6 +15,7 @@
 /* -- Variables -- */
 :root {
     --primary-clr: #1f0e05;
+    --primary-clr-alt: #2c1407;
     --second-clr: #dd6822;
     --second-clr-alt: #f7daca;
     --white-clr: #fefcfb;

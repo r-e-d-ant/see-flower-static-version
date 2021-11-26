@@ -2,26 +2,43 @@
 /* -- header section -- */
 header {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: var(--primary-clr);
+    flex-direction: column;
+}
+.upper-header-container {
+    background-color: var(--primary-clr-alt);
+    padding: .8rem .5rem;
+}
+.lower-header-desktop {
+    background-color: var(--primary-clr-alt);
     padding: .8rem .5rem;
 }
 @media screen and (min-width: 612px) {
-    header {
+    .upper-header-container,
+    .lower-header-desktop {
         padding: 1rem;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .logo {
     font-family: 'Fruktur', cursive;
     font-size: 1.8rem;
     color: var(--second-clr);
 }
 .nav-bar {
-    display: flex;
-    align-items: center;
-}
-.nav-lists {
     display: flex;
     align-items: center;
 }
@@ -62,19 +79,15 @@ header {
         position: absolute;
         top: 4.2rem;
         right: 0;
-        transform: scaleY(0);
-        transform-origin: top;
+        transform: scaleX(0);
+        transform-origin: left;
         flex-direction: column;
         align-items: flex-start;
         background-color: var(--primary-clr);
         transition: transform 300ms;
     }
     .show-nav-bar {
-        transform: scaleY(1);
-    }
-    .nav-lists {
-        flex-direction: column;
-        align-items: flex-start;
+        transform: scaleX(1);
     }
     .nav-item {
         margin-right: 0;
