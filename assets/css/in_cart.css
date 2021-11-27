@@ -76,6 +76,7 @@
     font-size: 1.2rem;
     font-weight: 300;
     margin-bottom: .5rem;
+    color: var(--second-clr);
 }
 @media screen and (min-width: 600px) {
     .cart-product-title {
