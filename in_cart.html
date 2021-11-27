@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./assets/css/home.css">
     <link rel="stylesheet" href="./assets/css/header.css">
     <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="./assets/css/in_cart.css">
     <title>Home - SeeFlower</title>
 </head>
 <body>
@@ -111,7 +112,63 @@
     </header>
 
     <!-- main -->
-    <main id="main"></main>
+    <main id="main">
+        <section class="section-one-in_cart">
+            <div class="carts-container">
+                <!-- cart one -->
+                <div class="cart">
+                    <div class="cart-product-info-container">
+                        <img src="./assets/images/product_pics/product_pic_5.png" alt="" class="cart-product-img">
+                        <div class="cart-product-info">
+                            <h2 class="cart-product-title">Three flowers</h2>
+                            <span class="cart-product-price">21$</span>
+                            <button class="remove-cart-btn cart-btns">remove cart</button>
+                        </div>
+                    </div>
+                    <i class="bx bx-trash delete-cart-icon" title="delete cart"></i>
+                </div>
+
+                <!-- cart two -->
+                <div class="cart">
+                    <div class="cart-product-info-container">
+                        <img src="./assets/images/product_pics/product_pic_10.png" alt="" class="cart-product-img">
+                        <div class="cart-product-info">
+                            <h2 class="cart-product-title">Pink roses in cover</h2>
+                            <span class="cart-product-price">153$</span>
+                            <button class="remove-cart-btn cart-btns">remove cart</button>
+                        </div>
+                    </div>
+                    <i class="bx bx-trash delete-cart-icon" title="delete cart"></i>
+                </div>
+
+                <!-- cart three -->
+                <div class="cart">
+                    <div class="cart-product-info-container">
+                        <img src="./assets/images/product_pics/product_pic_4.png" alt="" class="cart-product-img">
+                        <div class="cart-product-info">
+                            <h2 class="cart-product-title">Gold roses</h2>
+                            <span class="cart-product-price">85$</span>
+                            <button class="remove-cart-btn cart-btns">remove cart</button>
+                        </div>
+                    </div>
+                    <i class="bx bx-trash delete-cart-icon" title="delete cart"></i>
+                </div>
+            </div>
+            <div class="cart-total-container">
+                <div class="cart cart-total">
+                    <div class="cart-product-info-container">
+                        <img src="./assets/images/cart-total.svg" alt="" class="filled-cart-icon">
+                        <div class="cart-product-info">
+                            <h2 class="cart-product-title">Total</h2>
+                            <span class="in-cart-total">0$</span>
+                        </div>
+                    </div>
+                    <button class="checkout-btn cart-btns">CHECKOUT</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
     <footer>
         <div class="upper-footer">
             <div class="footer-links">
@@ -172,5 +229,6 @@
         </div>
     </footer>
     <script src="./assets/js/header.js"></script>
+    <script src="./assets/js/inCart.js"></script>
 </body>
 </html>
