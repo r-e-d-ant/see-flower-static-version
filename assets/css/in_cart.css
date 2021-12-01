@@ -146,6 +146,10 @@
     padding: .7rem;
     border-radius: 2.5px;
     letter-spacing: .05rem;
+    background-color: #c84242d0;
+}
+.remove-cart-btn:hover {
+    background-color: var(--danger-clr);
 }
 @media screen and (min-width: 600px) {
     .remove-cart-btn {
