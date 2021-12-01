@@ -147,3 +147,14 @@ body {
         margin-top: 1.5rem;
     }
 }
+
+/* ---- Buttons styles ---- */
+.cart-btns {
+    cursor: pointer;
+    background-color: var(--primary-clr-alt);
+    color: var(--white-clr);
+    border: none;
+}
+.cart-btns:hover {
+    background-color: var(--primary-clr);
+}
