@@ -1,7 +1,7 @@
 # see-flower-static-version
 flowers selling website
 
-This is a flowers selling website static version with ```HTML/CSS/JavaScript```, Check the one built with ```VueJs``` in this <a href="#" target="_blank">repo</a>.
+This is a flowers selling website static version with ```HTML/CSS/JavaScript```, Check the one built with ```VueJs``` in this <a href="https://github.com/r-e-d-ant/see-flower" target="_blank">repo</a>.
 
 Check Figma designs of these website <a href="https://www.figma.com/file/jPYZsnxVWVzBLAybrjFq92/SeeFlower?node-id=0%3A1" target="_blank" title="See Flower website figma designs">here</a>
 
