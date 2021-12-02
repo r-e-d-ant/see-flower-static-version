@@ -1,5 +1,6 @@
 # see-flower-static-version
-flowers selling website
+## See it <a href="https://nifty-mahavira-cef802.netlify.app">Live</a>
+## flowers selling website
 
 This is a flowers selling website static version with ```HTML/CSS/JavaScript```, Check the one built with ```VueJs``` in this <a href="https://github.com/r-e-d-ant/see-flower" target="_blank">repo</a>.
 
